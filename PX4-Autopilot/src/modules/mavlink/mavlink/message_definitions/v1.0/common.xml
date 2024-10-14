@@ -6638,7 +6638,7 @@
       <field type="char[10]" name="name">Name, for human-friendly display in a Ground Control Station</field>
       <field type="uint16_t" name="array_id" instance="true">Unique ID used to discriminate between arrays</field>
       <extensions/>
-      <field type="float[43]" name="data">data</field>
+      <field type="float[20]" name="data">data</field>
     </message>
     <message id="251" name="NAMED_VALUE_FLOAT">
       <description>Send a key-value pair as float. The use of this message is discouraged for normal packets, but a quite efficient way for testing new messages and getting experimental debug output.</description>
